@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Developer working on a project";
 
 /**
  * Project list
@@ -31,35 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Hackathon Landing Page🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Contribution to the official hackathon website of our college. Built various components on the front end using React JS and Tailwind CSS.",
+    url: "https://hackoverflowrnsit.tech/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Github User Search App🔍",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A Project that uses GitHub users API to pull profile data of github users and display it. ",
+    url: "http://github-user-search-app-teal.vercel.app/",
   },
   {
-    title: "My Resume Site",
+    title: "A Quote Generator App💬",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Simple quote generator app built using a public quote gen API using Vanilla JS. A fully functional quote generator app with a sleek UI.",
+    url: "https://quote-gen-app-subramanyarao11.vercel.app/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Markdown Notes App📝",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A short note taking app which converts Markdown Syntax to HTML output and stores Notes in Browsers's Local Storage.",
+    url: "https://markdwon-notes-app.netlify.app/",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="light" id="portfolio">
-      <h2>Portfolio</h2>
+      <h2>Recent Projects!</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
