@@ -12,6 +12,7 @@ body {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 div#main {
@@ -123,4 +124,14 @@ a:hover {
 img.socialIcon {
   width: 30px;
   height: 30px;
+}
+
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
