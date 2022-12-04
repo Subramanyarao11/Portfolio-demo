@@ -18,7 +18,6 @@ import React from "react";
  */
 import image from "../images/background.png";
 
-
 const imageAltText = "purple and blue abstract background";
 
 /**
